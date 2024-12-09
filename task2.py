@@ -48,4 +48,4 @@ assert counter_by_letter["Ь"] == 0
 
 output_dt = pd.DataFrame(counter_by_letter.items(),columns=["Буква","Количество"])
 print(output_dt)
-output_dt.to_csv("output.xlsx", index = False)
+output_dt.to_csv("beasts.csv", index = False) #нужно создать пустой файл экселя!
